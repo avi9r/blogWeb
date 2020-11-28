@@ -22,6 +22,8 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('backend')}}/css/sb-admin.css" rel="stylesheet">
+    
+    
 
     @if(!Session::has('adminData'))
     <script type="text/javascript">

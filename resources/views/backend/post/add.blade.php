@@ -1,7 +1,7 @@
 
 @extends('layout')
 @section('content')
-        <div class="container-fluid">
+   <div class="container-fluid">
 
           <!-- Breadcrumbs-->
           <ol class="breadcrumb">
@@ -59,7 +59,7 @@
                       <tr>
                           <th>Detail<span class="text-danger">*</span></th>
                           <td>
-                            <textarea class="form-control" name="detail"></textarea>
+                            <textarea class="form-control" name="detail" id="summernote"></textarea>
                           </td>
                       </tr>
                       <tr>
@@ -83,4 +83,3 @@
         <!-- /.container-fluid -->
 @endsection
 
-      

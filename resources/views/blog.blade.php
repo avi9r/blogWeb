@@ -3,8 +3,7 @@
 @section('content')
 		 <style>
 			p {
-				width: 200px;
-				white-space: nowrap;
+				height: 70px;
 				overflow: hidden;
 				text-overflow: ellipsis;
 			}
@@ -38,37 +37,49 @@
   <!--end section-->
   <div class="clearfix"></div>
   
- <section class="sec-padding">
-    <div class="container-fluid">
-      
+   
+  <section class="sec-padding">
+    <div class="container">
       <div class="row">
-			<div class="col-md-8">
-				<div class="row mb-5"> 
-					@if(count($posts)>0)
-						@foreach($posts as $post)
-						<div class="col-md-4">
-							<div class="card">
-							  <a href="{{url('detail/'.Str::slug($post->title).'/'.$post->id)}}">
-							  <img src="{{asset('imgs/thumb/'.$post->thumb)}}" class="card-img-top" alt="{{$post->title}}" style="width: 240px; height: 250px;" />
-							  </a>
-							  <div class="card-header">
-							    <h5 class="card-title xyz"><a href="{{url('detail/'.Str::slug($post->title).'/'.$post->id)}}">{{$post->title}}</a></h5>
-							  </div>
-							  <div class="card-body">
-							    <p class="card-detail" ><a href="{{url('detail/'.Str::slug($post->detail).'/'.$post->id)}}">{{$post->detail}}</a></p>
-							  </div>
-							</div>
-						</div>
-						@endforeach
-					@else
-					<p class="alert alert-danger">No Post Found</p>
-					@endif
-				</div>
-				<!-- Pagination -->
-				{{$posts->links()}}
-			</div>
+        <div>
+		<div>
+          @if(count($posts)>0)
+                @foreach($posts as $post)
+        <div class="col-md-6 col-sm-12 col-xs-12 bmargin padding-top-5">
+             <a href="{{url('detail/'.Str::slug($post->title).'/'.$post->id)}}">
+			 <img src="{{asset('imgs/thumb/'.$post->thumb)}}" class="img-responsive" alt="{{$post->title}}" style="width: 530px; height: 350px;" > 
+			</a>
+          <div class="col-md-12 no-gutter">
+            <div class="text-box padding-top-2">
+              <h5 class="card-title xyz"><a href="{{url('detail/'.Str::slug($post->title).'/'.$post->id)}}">{{$post->title}}</a></h5>
+              <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15 Comments</span> </div>
+              
+              <div class="divider-line solid light"></div>
+              <br/>
+              <p><a href="{{url('detail/'.Str::slug($post->detail).'/'.$post->id)}}">{{$post->detail}}</a></p>
+            </div>
+          </div>
+        </div>
+          @endforeach
+        @else
+        <p class="alert alert-danger">No Post Found</p>
+        @endif
+         </div>
+          {{$posts->links()}}
+		</div>
+		  
 			<!-- Right SIdebar -->
-			<div class="col-md-4">
+			
+		</div>
+      </div>
+    </div>
+  </section>
+	<div class="clearfix"></div>
+  
+   
+  <section class="sec-padding">
+    <div class="container">
+		<div class="col-md-4">
 				<!-- Search -->
 				<div class="card mb-4">
 					<h5 class="card-header">Search</h5>
@@ -84,7 +95,8 @@
 					</div>
 				</div>
 				<!-- Recent Posts -->
-				<div class="card mb-4">
+				<div class="row">
+				<div class="card mb-8">
 					<h5 class="card-header">Recent Posts</h5>
 					<div class="list-group list-group-flush">
 						@if($recent_posts)
@@ -95,18 +107,18 @@
 					</div>
 				</div>
 				<!-- Popular Posts -->
-				<!-- <div class="card mb-4">
+				<div class="card mb-6">
 					<h5 class="card-header">Popular Posts</h5>
 					<div class="list-group list-group-flush">
 						<a href="#" class="list-group-item">Post 1</a>
 						<a href="#" class="list-group-item">Post 2</a>
 					</div>
-				</div> -->
-			</div>
-		</div>
-      </div>
-    </div>
+				</div>
+				<div>
+ 		</div>
+	<div>
   </section>
+  
     
         <!--end item--> 
 @endsection('content')

@@ -78,8 +78,8 @@
           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
           @guest
-          <li><a href="login" class=" btn btn-red-4 less-top-bottom-padding btn-round btn-small-2">Login</a></li>
-          <li><a href="register" class=" btn btn-red-4 less-top-bottom-padding btn-round btn-small-2">Register</a></li>
+          <li><a href="{{url('login')}}" class=" btn btn-red-4 less-top-bottom-padding btn-round btn-small-2">Login</a></li>
+          <li><a href="{{url('register')}}" class=" btn btn-red-4 less-top-bottom-padding btn-round btn-small-2">Register</a></li>
           @else
           <li class="nav-item">
 		        <a class="nav-link" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" href="{{url('logout')}}">Logout</a>
@@ -105,11 +105,11 @@
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav red-4 navbar-nav">
             <li><a href="/" class="dropdown-toggle active">Home</a></li>
-            <li><a href="/blog" class="dropdown-toggle">Blog</a></li>
-            <li><a href="/about" class="dropdown-toggle">About</a></li>
-            <li><a href="/services" class="dropdown-toggle">Services</a></li>
-            <li><a href="/portfolio" class="dropdown-toggle">Portfolio</a></li>
-            <li><a href="/contact" class="dropdown-toggle">Contact</a></li>
+            <li><a href="{{url('blog')}}" class="dropdown-toggle">Blog</a></li>
+            <li><a href="{{url('about')}}" class="dropdown-toggle">About</a></li>
+            <li><a href="{{url('services')}}" class="dropdown-toggle">Services</a></li>
+            <li><a href="{{url('portfolio')}}" class="dropdown-toggle">Portfolio</a></li>
+            <li><a href="{{url('contact')}}" class="dropdown-toggle">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -124,12 +124,12 @@
       <div class="row">
         <div class="col-md-12">
           <ul class="clientlogo-list">
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
-            <li><img src="http://placehold.it/170x80" alt=""/></li>
+            <li><img src="{{url('images\a1.png')}}" alt=""/></li>
+            <li><img src="{{url('images\a2.png')}}" alt=""/></li>
+            <li><img src="{{url('images\a3.png')}}" alt=""/></li>
+            <li><img src="{{url('images\a4.png')}}" alt=""/></li>
+            <li><img src="{{url('images\a5.png')}}" alt=""/></li>
+            <li><img src="{{url('images\a6.jpg')}}" alt=""/></li>
           </ul>
         </div>
       </div>
@@ -146,7 +146,7 @@
             <h4 class="uppercase footer-title less-mar3">Recent Posts</h4>
             <div class="footer-title-bottomstrip"></div>
             <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
+            <div class="image-left"><img src="{{url('images\a7.jpg')}}" alt=""/></div>
             <div class="text-box-right">
               <h6 class="text-white less-mar3 nopadding"><a href="#">Clean And Modern</a></h6>
               <p>Lorem ipsum dolor sit</p>
@@ -154,7 +154,7 @@
             </div>
             <div class="divider-line solid dark opacity-4 margin"></div>
             <div class="clearfix"></div>
-            <div class="image-left"><img src="http://placehold.it/80x80" alt=""/></div>
+            <div class="image-left"><img src="{{url('images\a8.jpg')}}" alt=""/></div>
             <div class="text-box-right">
               <h6 class="text-white less-mar3"><a href="#">Layered PSD Files</a></h6>
               <p>Lorem ipsum dolor sit</p>
@@ -238,12 +238,12 @@
 
 <!-- ============ JS FILES ============ -->
  
-<script type="text/javascript" src="js/universal/jquery.js"></script> 
-<script src="js/bootstrap/bootstrap.min.js" type="text/javascript"></script> 
-<script src="js/jFlickrFeed/jflickrfeed.min.js"></script> 
-<script src="js/jFlickrFeed/jquery.cycle.all.min.js"></script> 
-<script src="js/masterslider/jquery.easing.min.js"></script> 
-<script src="js/masterslider/masterslider.min.js"></script> 
+<script type="text/javascript" src="{{asset('js/universal/jquery.js')}}"></script> 
+<script src="{{asset('js/bootstrap/bootstrap.min.js')}}" type="text/javascript"></script> 
+<script src="{{asset('js/jFlickrFeed/jflickrfeed.min.js')}}"></script> ')}}
+<script src="{{asset('js/jFlickrFeed/jquery.cycle.all.min.js')}}"></script> 
+<script src="{{asset('js/masterslider/jquery.easing.min.js')}}"></script> 
+<script src="{{asset('js/masterslider/masterslider.min.js')}}"></script> 
 <script type="text/javascript">
 (function($) {
  "use strict";

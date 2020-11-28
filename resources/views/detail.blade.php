@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
 		<div class="row">
-			<div class="col-md-8">
+			<div >
 			@if(Session::has('success'))
 				<p class="text-success">{{session('success')}}</p>
 			@endif
@@ -12,7 +12,13 @@
 					<img src="{{asset('imgs/full/'.$details->full_img)}}" class="card-img-top" alt="{{$details->title}}" style=" max-width: 100%; height: auto; border-radius: 8px;">
 					
 					<div class="card-body">
-						{{$details->detail}}
+					<div class="col-md-12 no-gutter">
+            <div class="text-box padding-top-5">
+					<div class="divider-line solid light"></div>
+              </div>
+			  </div>
+              <p>{{$details->detail}}</p>
+           
 					</div>
 				</div>
 				@auth
@@ -53,7 +59,12 @@
 				</div>
 			</div>
 			<!-- Right SIdebar -->
-			<div class="col-md-4">
+			
+		</div>
+</div>
+<section class="sec-padding">
+    <div class="container">
+		<div class="col-md-4">
 				<!-- Search -->
 				<div class="card mb-4">
 					<h5 class="card-header">Search</h5>
@@ -69,7 +80,8 @@
 					</div>
 				</div>
 				<!-- Recent Posts -->
-				<div class="card mb-4">
+				<div class="row">
+				<div class="card mb-8">
 					<h5 class="card-header">Recent Posts</h5>
 					<div class="list-group list-group-flush">
 						@if($recent_posts)
@@ -80,14 +92,16 @@
 					</div>
 				</div>
 				<!-- Popular Posts -->
-				<!-- <div class="card mb-4">
+				<div class="card mb-6">
 					<h5 class="card-header">Popular Posts</h5>
 					<div class="list-group list-group-flush">
 						<a href="#" class="list-group-item">Post 1</a>
 						<a href="#" class="list-group-item">Post 2</a>
 					</div>
-				</div> -->
-			</div>
-		</div>
-</div>
+				</div>
+				<div>
+ 		</div>
+	<div>
+  </section>
+  
 @endsection('content')

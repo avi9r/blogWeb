@@ -33,9 +33,9 @@ class HomeController extends Controller
 		// $posts=Post::orderBy('id','desc')->simplePaginate(1);
 		if($request->has('q')){
     		$q=$request->q;
-    		$posts=Post::where('title','like','%'.$q.'%')->orderBy('id','desc')->paginate(6);
+    		$posts=Post::where('title','like','%'.$q.'%')->orderBy('id','desc')->paginate();
 		}else{
-    		$posts=Post::orderBy('id','desc')->paginate(6);
+    		$posts=Post::orderBy('id','desc')->paginate(4);
     	}
         return view('blog',['posts'=>$posts]);
 	}

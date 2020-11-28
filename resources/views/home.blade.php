@@ -8,7 +8,7 @@
     <!-- slide 1 -->
     <div class="ms-slide slide-1" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x630" alt=""/>
+      <img src="{{url('images\slider3.jpg')}}" data-src="{{url('images\slider3.jpg')}}" alt=""/>
       
       <h3 class="ms-layer text38"
 			style="top: 210px; left:230px;"
@@ -49,7 +49,7 @@
     <!-- slide 2 -->
     <div class="ms-slide slide-2" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x630" alt=""/>
+      <img src="{{url('images\slider1.jpg')}}" data-src="{{url('images\slider1.jpg')}}" alt=""/>
       
       <h3 class="ms-layer text38 text-center"
 			style="top: 210px;"
@@ -90,7 +90,7 @@
     <!-- slide 3 -->
     <div class="ms-slide slide-3" data-delay="9">
       <div class="slide-pattern"></div>
-      <img src="js/masterslider/blank.gif" data-src="http://placehold.it/1920x630" alt=""/>
+      <img src="{{url('images\slider2.jpg')}}" data-src="{{url('images\slider2.jpg')}}" alt=""/>
       
       <h3 class="ms-layer text38 text-center"
 			style="top: 210px;"
@@ -209,7 +209,8 @@
   
   <section class=" section-light section-side-image clearfix">
     <div class="img-holder col-md-6 col-sm-3 pull-left">
-      <div class="background-imgholder" style="background:url(http://placehold.it/1500x960);"> <img class="nodisplay-image" src="http://placehold.it/1500x960" alt=""/> </div>
+      <div class="background-imgholder" style="background:url(https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+       <img class="nodisplay-image" src="{{url('images\project.jpg')}}" alt=""/> </div>
     </div>
     <div class="container-fluid">
       <div class="row">
@@ -243,7 +244,7 @@
           <p class="sub-title-2">Lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
         </div>
         <div class="clearfix"></div>
-        <div class="col-md-8"> <img src="http://placehold.it/730x530" alt="" class="img-responsive"/> </div>
+        <div class="col-md-8"> <img src="{{url('images\about.jpg')}}" alt="" class="img-responsive"/> </div>
         <!--end item-->
         
         <div class="col-md-4">
@@ -395,7 +396,7 @@
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
-              <img src="http://placehold.it/450x550" alt="" class="img-responsive"/> </div>
+              <img src="{{url('images\p1.jpg')}}" alt="" class="img-responsive"/> </div>
             <div class="content-box less-pading text-center">
               <h5 class="nomargin title">Charlotte</h5>
               <h6 class="text-red-5 nopadding">Founder</h6>
@@ -417,7 +418,7 @@
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
-              <img src="http://placehold.it/450x550" alt="" class="img-responsive"/> </div>
+              <img src="{{url('images\p2.jpg')}}" alt="" class="img-responsive"/> </div>
             <div class="content-box less-pading text-center">
               <h5 class="nomargin title">William</h5>
               <h6 class="text-red-5 nopadding">Manager</h6>
@@ -435,11 +436,11 @@
                 <ul class="social-icons-1">
                   <li><a href="https://twitter.com/codelayers"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://www.facebook.com/codelayers"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="active" href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
-              <img src="http://placehold.it/450x550" alt="" class="img-responsive"/> </div>
+              <img src="{{url('images\p3.jpg')}}" alt="" class="img-responsive"/> </div>
             <div class="content-box less-pading text-center">
               <h5 class="nomargin title">Olivia</h5>
               <h6 class="text-red-5 nopadding">Support</h6>
@@ -461,7 +462,7 @@
                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
               </div>
-              <img src="http://placehold.it/450x550" alt="" class="img-responsive"/> </div>
+              <img src="{{url('images\p4.jpg')}}" alt="" class="img-responsive"/> </div>
             <div class="content-box less-pading text-center">
               <h5 class="nomargin title">Alexander</h5>
               <h6 class="text-red-5 nopadding">Marketing</h6>
@@ -480,7 +481,7 @@
   
   <section class=" section-light section-side-image clearfix">
     <div class="img-holder col-md-6 col-sm-3 pull-left">
-      <div class="background-imgholder" style="background:url(http://placehold.it/1500x960);"> <img class="nodisplay-image" src="http://placehold.it/1500x960" alt=""/> </div>
+      <div class="background-imgholder" style="background:url(https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);"> <img class="nodisplay-image" src="http://placehold.it/1500x960" alt=""/> </div>
     </div>
     <div class="container-fluid">
       <div class="row">
@@ -551,7 +552,7 @@
           <a class="btn btn-border red-5" href="#">Read more</a> </div>
         <!--end item-->
         
-        <div class="col-md-5 bmargin"> <img src="http://placehold.it/450x450" alt="" class="img-responsive"/> </div>
+        <div class="col-md-5 bmargin"> <img src="{{url('images\feature.jpg')}}" alt="" class="img-responsive"/> </div>
         <!--end item--> 
         
       </div>
