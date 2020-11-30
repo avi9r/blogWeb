@@ -19,6 +19,8 @@ Route::get('blog',[HomeController::class,'blog']);
 Route::get('portfolio',[HomeController::class,'portfolio']);
 Route::get('services',[HomeController::class,'services']);
 
+Route::post('/contactus',[HomeController::class,'contactus'])->name('contact.us');
+
 
 Route::get('/detail/{slug}/{id}',[HomeController::class,'detail']);
 Route::get('/save_comment/{slug}/{id}',[HomeController::class,'save_comment']);

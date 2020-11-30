@@ -1,5 +1,5 @@
 @extends('frontlayout')
-@section('title','Blog Page')
+@section('title','Blog')
 @section('content')
 		 <style>
 			p {
@@ -16,8 +16,8 @@
 <section>
     <div class="header-inner two">
       <div class="inner text-center">
-        <h4 class="title text-white uppercase">We Are Hasta</h4>
-        <h5 class="text-white uppercase">Get Many More Features</h5>
+        <h4 class="title text-white uppercase">We Are srv technology</h4>
+        <h5 class="text-white uppercase">Our tech blogs</h5>
       </div>
       <div class="overlay bg-opacity-5"></div>
       <img src="http://placehold.it/1920x800" alt="" class="img-responsive"/> </div>
@@ -57,7 +57,7 @@
           <div class="col-md-12 no-gutter">
             <div class="text-box padding-top-2">
               <h5 class="card-title xyz"><a href="{{url('detail/'.Str::slug($post->title).'/'.$post->id)}}">{{$post->title}}</a></h5>
-              <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15 Comments</span> </div>
+              <div class="blog-post-info">  <span><i class="fa fa-comments-o"></i> {{count($post->comments)}} Comments</span> </div>
               
               <div class="divider-line solid light"></div>
               <br/>

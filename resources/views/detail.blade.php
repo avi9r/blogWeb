@@ -42,6 +42,7 @@
 						</div>
 				</div>
 				@endauth
+				
 				<!-- Fetch Comments -->
 				<div class="card ">
 					<h5 class="card-header">Comments <span class="badge badge-dark">{{count($details->comments)}}</span></h5>

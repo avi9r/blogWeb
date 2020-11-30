@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Post;
 use App\Models\User;
 use App\Models\Comments;
+use App\Models\Contactus;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
@@ -28,12 +29,34 @@ class HomeController extends Controller
 		return view('contact');
 	}
 
+	function contactus(Request $request)
+	{
+		$request->validate([
+			'email'=>'required',
+			'name'=>'required',
+			'address'=>'required',
+			'state'=>'required',
+			'city'=>'required'
+
+		]);
+
+		$data=new Contactus;
+		$data->email=$request->email;
+		$data->name=$request->name;
+		$data->address=$request->address;
+		$data->state=$request->state;
+		$data->city=$request->city;
+		$data->save();
+		return redirect('/contact')->with('success','Thank You For Contacting us we will reach you soon!');
+		
+	}
+
 	function blog(Request $request)
 	{
 		// $posts=Post::orderBy('id','desc')->simplePaginate(1);
 		if($request->has('q')){
     		$q=$request->q;
-    		$posts=Post::where('title','like','%'.$q.'%')->orderBy('id','desc')->paginate();
+    		$posts=Post::where('title','like','%'.$q.'%')->orderBy('id','desc')->paginate(2);
 		}else{
     		$posts=Post::orderBy('id','desc')->paginate(4);
     	}

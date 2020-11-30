@@ -1,5 +1,5 @@
 @extends('frontlayout')
-@section('title','Home Page')
+@section('title','Services')
 @section('content')
 <section>
     <div class="pagenation-holder">
