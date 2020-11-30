@@ -100,11 +100,11 @@
       <div class="navbar red-4 navbar-default yamm">
         <div class="navbar-header">
           <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-          <div class="logo-box"><a href="index.html" class="navbar-brand less-top-padding"><img src="images/logo.png" alt=""/></a></div>
+          <div class="logo-box"><a href="{{ route('blog.home') }}" class="navbar-brand less-top-padding"><img src="images/logo.png" alt=""/></a></div>
         </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav red-4 navbar-nav">
-            <li><a href="/" class="dropdown-toggle active">Home</a></li>
+            <li><a href="{{route('blog.home')}}" class="dropdown-toggle active">Home</a></li>
             <li><a href="{{url('blog')}}" class="dropdown-toggle">Blog</a></li>
             <li><a href="{{url('about')}}" class="dropdown-toggle">About</a></li>
             <li><a href="{{url('services')}}" class="dropdown-toggle">Services</a></li>
@@ -225,7 +225,7 @@
   <section class="section-copyrights sec-moreless-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"> <span>Copyright © 2020 <a href="https://1.envato.market/hasta-html-by-codelayers">hasta</a> By <a href="https://1.envato.market/codelayers">Codelayers</a> | All rights reserved.</span></div>
+        <div class="col-md-12"> <span>Copyright © 2020 SRV Technology | All rights reserved.</span></div>
       </div>
     </div>
   </section>
@@ -276,10 +276,11 @@ itemTemplate:
 
 });
 </script> 
-<script src="js/mainmenu/customeUI.js"></script> 
-<script src="js/scrolltotop/totop.js"></script> 
-<script src="js/mainmenu/jquery.sticky.js"></script> 
- 
-<script src="js/scripts/functions.js" type="text/javascript"></script>
+<script src="{{asset('js/mainmenu/customeUI.js')}}  "></script> 
+<script type="text/javascript" src="{{asset('js/cubeportfolio/jquery.cubeportfolio.min.js')}}"></script> 
+<script src="{{asset('js/scrolltotop/totop.js')}} "></script> 
+<script src="{{asset('js/mainmenu/jquery.sticky.js')}}  "></script> 
+<script type="text/javascript" src="{{asset('js/cubeportfolio/main.js')}}"></script>
+<script src="{{asset('js/scripts/functions.js')}} " type="text/javascript"></script>
 </body>
 </html>

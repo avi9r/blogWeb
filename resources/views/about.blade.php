@@ -8,7 +8,7 @@
         <h5 class="text-white uppercase">Get Many More Features</h5>
       </div>
       <div class="overlay bg-opacity-5"></div>
-      <img src="http://placehold.it/1920x800" alt="" class="img-responsive"/> </div>
+      <img src="{{asset('images\h2.jpg')}}" alt="" class="img-responsive"/> </div>
   </section>
   <!-- end header inner -->
   <div class="clearfix"></div>
@@ -41,7 +41,7 @@
         <br/>
         <br/>
         <br/>
-        <div class="col-md-4 bmargin"> <img src="http://placehold.it/400x500" alt="" class="img-responsive"/> <br/>
+        <div class="col-md-4 bmargin"> <img src="{{asset('images\k12.jpg')}}" alt="" class="img-responsive"/> <br/>
           <h4>Lorem ipsum dolor sit amet sit et justo consectetuer elit. </h4>
           <div class="divider-line solid light"></div>
           <br/>
@@ -49,7 +49,7 @@
         </div>
         <!--end item-->
         
-        <div class="col-md-4 bmargin"> <img src="http://placehold.it/400x500" alt="" class="img-responsive"/> <br/>
+        <div class="col-md-4 bmargin"> <img src="{{asset('images\k13.jpg')}}" alt="" class="img-responsive"/> <br/>
           <h5 class="roboto-slab">Lorem ipsum dolor sit amet sit et justo consectetuer elit. </h5>
           <div class="divider-line solid light"></div>
           <br/>
@@ -57,7 +57,7 @@
         </div>
         <!--end item-->
         
-        <div class="col-md-4 bmargin"> <img src="http://placehold.it/400x500" alt="" class="img-responsive"/> <br/>
+        <div class="col-md-4 bmargin"> <img src="{{asset('images\k14.jpg')}}" alt="" class="img-responsive"/> <br/>
           <h5 class="roboto-slab">Lorem ipsum dolor sit amet sit et justo consectetuer elit. </h5>
           <div class="divider-line solid light"></div>
           <br/>
@@ -110,7 +110,7 @@
           <br/>
           <div class="margin-top1"></div>
           <div class="video-wrapper">
-            <video controls poster="http://placehold.it/1600x900">
+            <video controls poster="{{asset('images\k3.jpg')}}">
               <source type="video/webm" src="https://codelayers.net/videos/Applead.webm">
               <source type="video/mp4" src="https://codelayers.net/videos/Applead.mp4">
               <source type="video/ogg" src="https://codelayers.net/videos/Applead.ogv">

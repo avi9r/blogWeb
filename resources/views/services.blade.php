@@ -142,7 +142,7 @@
           <br/>
           <div class="margin-top1"></div>
           <div class="video-wrapper">
-            <video controls poster="http://placehold.it/1600x900">
+            <video controls poster="{{asset('images\k7.jpg')}}">
               <source type="video/webm" src="https://codelayers.net/videos/Applead.webm">
               <source type="video/mp4" src="https://codelayers.net/videos/Applead.mp4">
               <source type="video/ogg" src="https://codelayers.net/videos/Applead.ogv">

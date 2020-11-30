@@ -7,6 +7,11 @@
 				overflow: hidden;
 				text-overflow: ellipsis;
 			}
+      .xyz {
+				height: 20px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
 		 </style>
 <section>
     <div class="header-inner two">

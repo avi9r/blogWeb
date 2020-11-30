@@ -12,7 +12,7 @@ use App\Http\Controllers\CommentController;
 
 
 
-Route::get('/',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index'])->name('blog.home');
 Route::get('about',[HomeController::class,'about']);
 Route::get('contact',[HomeController::class,'contact']);
 Route::get('blog',[HomeController::class,'blog']);

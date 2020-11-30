@@ -36,68 +36,40 @@
         <div class="col-md-8">
           <div class="smart-forms bmargin">
             <h3 class="raleway">Contact Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit consectetuer adipiscing elit. Suspendisse et justo. augue.</p>
             <br/>
             <br/>
-            <form method="post" action="php/smartprocess.php" id="smart-form">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Jhon">
+                </div>
+              </div>
+
+              <div class="form-group col-md-12">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+             
+              <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="inputState">State</label>
+                  <input type="text" class="form-control" id="state">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                
+               
+              </div>
               <div>
-                <div class="section">
-                  <label class="field prepend-icon">
-                    <input type="text" name="sendername" id="sendername" class="gui-input" placeholder="Enter name">
-                    <span class="field-icon"><i class="fa fa-user"></i></span> </label>
-                </div>
-                <!-- end section -->
-                
-                <div class="section">
-                  <label class="field prepend-icon">
-                    <input type="email" name="emailaddress" id="emailaddress" class="gui-input" placeholder="Email address">
-                    <span class="field-icon"><i class="fa fa-envelope"></i></span> </label>
-                </div>
-                <!-- end section -->
-                
-                <div class="section colm colm6">
-                  <label class="field prepend-icon">
-                    <input type="tel" name="telephone" id="telephone" class="gui-input" placeholder="Telephone">
-                    <span class="field-icon"><i class="fa fa-phone-square"></i></span> </label>
-                </div>
-                <!-- end section -->
-                
-                <div class="section">
-                  <label class="field prepend-icon">
-                    <input type="text" name="sendersubject" id="sendersubject" class="gui-input" placeholder="Enter subjec">
-                    <span class="field-icon"><i class="fa fa-lightbulb-o"></i></span> </label>
-                </div>
-                <!-- end section -->
-                
-                <div class="section">
-                  <label class="field prepend-icon">
-                    <textarea class="gui-textarea" id="sendermessage" name="sendermessage" placeholder="Enter message"></textarea>
-                    <span class="field-icon"><i class="fa fa-comments"></i></span> <span class="input-hint"> <strong>Hint:</strong> Please enter between 80 - 300 characters.</span> </label>
-                </div>
-                <!-- end section --> 
-                
-                <!--<div class="section">
-                            <div class="smart-widget sm-left sml-120">
-                                <label class="field">
-                                    <input type="text" name="captcha" id="captcha" class="gui-input sfcode" maxlength="6" placeholder="Enter CAPTCHA">
-                                </label>
-                                <label class="button captcode">
-                                    <img src="php/captcha/captcha.php?<?php echo time();?>" id="captchax" alt="captcha">
-                                    <span class="refresh-captcha"><i class="fa fa-refresh"></i></span>
-                                </label>
-                            </div> 
-                        </div>-->
-                
-                <div class="result"></div>
-                <!-- end .result  section --> 
-                
+             &nbsp;&nbsp;&nbsp;&nbsp; <button type="submit" class="btn btn-primary">Sign in</button>
               </div>
-              <!-- end .form-body section -->
-              <div class="form-footer">
-                <button type="submit" data-btntext-sending="Sending..." class="button btn-primary red-5">Submit</button>
-                <button type="reset" class="button"> Cancel </button>
-              </div>
-              <!-- end .form-footer section -->
             </form>
           </div>
           <!-- end .smart-forms section --> 
@@ -121,7 +93,7 @@
         </div>
       </div>
     </div>
-  </section>
+ </section>
   <!--end section-->
   
   
