@@ -356,12 +356,11 @@
         <div class="row">
           <div class="col-md-6">
             <div class="feature-box71">
-              <h4 class="uppercase text-white">100% Responsive</h4>
+              <h4 class="uppercase text-white">Our Technology Platforms</h4>
               <div class="title-line-4 white less-margin"></div>
               <div class="clearfix"></div>
-              <p>Lorem ipsum dolor sit amet, sit et <span class="text-red-5">justo consectetuer adipiscing elit.</span> et sit Suspendisse et justo. Praesent mattis.Lorem ipsum dolor sit amet.</p>
-              <br/>
-              <p>Lorem ipsum dolor sit amet, sit et justoconsectetuer adipiscing elit.  et sit Suspendisse et justo. Praesent mattis.Lorem ipsum dolor sit amet.</p>
+              <p>We use dynamic latest technology platforms for all the solutions we provide. This allows you to make the product robust to also add new features in the future.</p>
+              
               <br/>
               <a class="btn btn-red-5" href="#">Read more</a> </div>
           </div>
@@ -574,7 +573,7 @@
       </div>
     </div>
   </section>
-  
+
   <!--end section-->
   <div class="clearfix"></div>
 

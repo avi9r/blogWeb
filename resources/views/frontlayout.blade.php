@@ -148,17 +148,17 @@
             <div class="clearfix"></div>
             <div class="image-left"><img src="{{url('images\a7.jpg')}}" alt=""/></div>
             <div class="text-box-right">
-              <h6 class="text-white less-mar3 nopadding"><a href="#">Clean And Modern</a></h6>
-              <p>Lorem ipsum dolor sit</p>
+              <h6 class="text-white less-mar3 nopadding"><a href="#">iPhone boom</a></h6>
+              <p>Apple launching new iphone</p>
               <div class="footer-post-info"> <span>By John Doe</span><span>May 19</span> </div>
             </div>
             <div class="divider-line solid dark opacity-4 margin"></div>
             <div class="clearfix"></div>
             <div class="image-left"><img src="{{url('images\a8.jpg')}}" alt=""/></div>
             <div class="text-box-right">
-              <h6 class="text-white less-mar3"><a href="#">Layered PSD Files</a></h6>
-              <p>Lorem ipsum dolor sit</p>
-              <div class="footer-post-info"> <span>By John Doe</span><span>May 19</span> </div>
+              <h6 class="text-white less-mar3"><a href="#">Headphones</a></h6>
+              <p>New sonic bass boasted headphones</p>
+              
             </div>
           </div>
         </div>
@@ -169,11 +169,11 @@
           <div class="clearfix"></div>
           <div class="footer-title-bottomstrip"></div>
           <ul class="usefull-links">
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
-            <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+            <li><a href="{{url('blog')}}"><i class="fa fa-angle-right"></i> Blog</a></li>
+            <li><a href="{{url('about')}}"><i class="fa fa-angle-right"></i> About Us</a></li>
+            <li><a href="{{url('services')}}"><i class="fa fa-angle-right"></i> Services</a></li>
+            <li><a href="{{url('posrfolio')}}"><i class="fa fa-angle-right"></i> Portfolio</a></li>
+            <li><a href="{{url('contact')}}"><i class="fa fa-angle-right"></i> Contact Us</a></li>
           </ul>
         </div>
         <!--end item-->
@@ -184,7 +184,7 @@
             <div class="clearfix"></div>
             <div class="footer-title-bottomstrip"></div>
             <div class="newsletter">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sit et justo amet. Suspendisse et justo.</p>
+              <p>The best motherboard will make sure you really reach the full potential of your build and to get the best performance from all your components.</p>
               <br />
               <form method="get" action="index.html">
                 <input class="email_input dark" name="samplees" id="samplees" value="E-mail Address" onFocus="if(this.value == 'E-mail Address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'E-mail Address';}" type="text">
