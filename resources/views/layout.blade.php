@@ -72,13 +72,6 @@
             <a class="dropdown-item" href="{{url('admin/post/create')}}">Add New</a>
           </div>
         </li>
-        <!-- Comments -->
-        <li class="nav-item">
-          <a class="nav-link" href="{{url('admin/comment')}}">
-            <i class="fas fa-fw fa-comments"></i>
-            <span>Comments</span>
-          </a>
-        </li>
         <!-- Users -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -89,6 +82,21 @@
             <a class="dropdown-item" href="{{url('admin/user')}}">View All</a>
             <!-- <a class="dropdown-item" href="{{url('admin/user/create')}}">Add New</a> -->
           </div>
+        </li>
+        <!-- Comments -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{url('admin/comment')}}">
+            <i class="fas fa-fw fa-comments"></i>
+            <span>Comments</span>
+          </a>
+        </li>
+        
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link" href="{{url('admin/contact')}}">
+            <i class="fas fa-fw fa-comments"></i>
+            <span>Contact</span>
+          </a>
         </li>
         <!-- Settings -->
         <li class="nav-item">
@@ -115,7 +123,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Your Website 2020</span>
+              <span>Copyright © SRV Technology 2020</span>
             </div>
           </div>
         </footer>

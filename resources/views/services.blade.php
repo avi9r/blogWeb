@@ -25,7 +25,6 @@
       <div class="col-xs-12 text-center">
           <h3 class="uppercase">Our Services</h3>
           <div class="title-line-4 less-margin align-center"></div>
-          <p class="sub-title-2">Lorem ipsum dolor sit amet consectetuer adipiscing elit.</p>
         </div>
         <div class="clearfix"></div>
         
@@ -33,8 +32,8 @@
           <div class="feature-box-74 bmargin">
             <div class="iconbox-xtiny left round"><span class="icon-pencil"></span></div>
             <div class="text-box-right">
-              <h4 class="uppercase font-weight-3">Maecenas sed </h4>
-              <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
+              <h4 class="uppercase font-weight-3">Website Design Services</h4>
+              <p> Best Web Designing Company in Kolkata Providing website Design Services to Startup/Small Business as well as Corporate Clients</p>
             </div>
           </div>
         </div>
@@ -44,7 +43,7 @@
           <div class="feature-box-74 bmargin">
             <div class="iconbox-xtiny left round"><span class="icon-scissors"></span></div>
             <div class="text-box-right">
-              <h4 class="uppercase font-weight-3">fermentum sit </h4>
+              <h4 class="uppercase font-weight-3">Mobile App Development</h4>
               <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
             </div>
           </div>
@@ -56,7 +55,7 @@
             <div class="iconbox-xtiny left round"><span class="icon-heart"></span></div>
             <div class="text-box-right">
               <h4 class="uppercase font-weight-3">pretium sit amet</h4>
-              <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
+              <p>Best Mobile App Development Company In Kolkata. Our expertise in Quality app Development in your Budget.</p>
             </div>
           </div>
         </div>
@@ -68,8 +67,8 @@
           <div class="feature-box-74 bmargin">
             <div class="iconbox-xtiny left round"><span class="icon-hotairballoon"></span></div>
             <div class="text-box-right">
-              <h4 class="uppercase font-weight-3">Aliquam lacinia</h4>
-              <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
+              <h4 class="uppercase font-weight-3">Digital Marketing Services</h4>
+              <p> We are the best Online Marketing agency in Kolkata.</p>
             </div>
           </div>
         </div>
@@ -79,8 +78,8 @@
           <div class="feature-box-74 bmargin">
             <div class="iconbox-xtiny left round"><span class="icon-layers"></span></div>
             <div class="text-box-right">
-              <h4 class="uppercase font-weight-3">aliquam rhoncus</h4>
-              <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
+              <h4 class="uppercase font-weight-3">Social Media Marketing Services</h4>
+              <p>Looking for the best Social Media Marketing Company in Kolkata? Then Contact us Now!</p>
             </div>
           </div>
         </div>
@@ -90,8 +89,8 @@
           <div class="feature-box-74 bmargin">
             <div class="iconbox-xtiny left round"><span class="icon-tools"></span></div>
             <div class="text-box-right">
-              <h4 class="uppercase font-weight-3">venenatis quis</h4>
-              <p> Consectetuer adipiscing elit sit amet Lorem ipsum dolor sit amet</p>
+              <h4 class="uppercase font-weight-3">e-commerce Marketing Services</h4>
+              <p> Optimize your product with our eCommerce marketing skills and create a win-win situation.</p>
             </div>
           </div>
         </div>
@@ -108,7 +107,7 @@
       <div class="row">
         <div class="text-box padding-4 section-red-5">
           <blockquote class="style1"><span>
-            <h5 class="dosis uppercase text-white">Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augue Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est Curabitur eget orci.</h5>
+            <h5 class="dosis uppercase text-white">We at DigiBrood provides a complete digital growth for your business. We are one of the leading Digital marketing agency in Kolkata, we are experts in digital marketing, web design, and app development. The market insight along with the use of digital technology is our strength. Thorough research of the market gives a better idea of what is required to create the content. We serve businesses according to the need and requirements of the customers and deliver quality work in time. We create engaging content that increases the time spent by the consumer on the internet.</h5>
             </span></blockquote>
         </div>
       </div>
@@ -124,20 +123,14 @@
           <h3>What We Offer</h3>
           <div class="divider-line solid light"></div>
           <br/>
-          <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit Suspendisse et justo Praesent mattis commodo augu Aliquam ornare hendrerit augue Cras tellus In pulvinar lectus a est. Curabitur eget orci. Cras laoreet ligula. Etiam sit amet dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam tellus diam volutpat a laoreet vel bibendum</p>
+          <p>We are experts in designing websites for small industries, corporate business, eCommerce business, CMS websites, Custom websites, etc. We make mobile friendly website, so it will also open on your smart phone also. We can also customize the design of your websites according to your requirements. We offer our full support in updating the pages of the website on a regular basis. We make use of the latest technologies and different tools to create wonders for your websites. We design the website in such a way that it is mobile-friendly.We develop for a range of platforms (iOS, Android & Windows) but build the app native for each of them to ensure the best user experience on each platform with our team of passionate developers.Software design & development is both an art and a science. Working with you to understand your target audience, we create an interface that will accomplish both goals.We make an integrated approach to hardware, software and data with speed and flexibility and with the right software and algorithms to bring fast and flexible platforms for AI.</p>
           <br/>
-          <ul class="iconlist less-margin orange2">
-            <li><i class="fa fa-check"></i> Sed massa tellus aliquam rhoncus venenatis quis. </li>
-            <li><i class="fa fa-check"></i> Development dolor sit amet consectetur adipiscing elit Phasellus </li>
-            <li><i class="fa fa-check"></i> Etiam dictum Nunc enim Sed massa tellus aliquam rhoncus venenatis</li>
-            <li><i class="fa fa-check"></i> Magna eget scelerisque metus massa in neque sit consectetur </li>
-            <li><i class="fa fa-check"></i> Development dolor sit amet consectetur elit Phasellus </li>
-          </ul>
+          
         </div>
         <!--end item-->
         
         <div class="col-md-6 col-sm-6 col-xs-12 bmargin">
-          <h3>Who We Are</h3>
+          <h3>How We Work</h3>
           <div class="divider-line solid light"></div>
           <br/>
           <div class="margin-top1"></div>

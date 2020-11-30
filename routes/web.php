@@ -8,6 +8,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\SettingController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CommentController;
 
 
@@ -41,6 +42,10 @@ Route::resource('admin/user',UserController::class);
 // Comments
 Route::get('admin/comment/{id}/delete',[CommentController::class,'destroy']);
 Route::resource('admin/comment',CommentController::class);
+
+// Contact us
+Route::get('admin/contact/{id}/delete',[ContactController::class,'destroy']);
+Route::resource('admin/contact',ContactController::class);
 
 // Settings
 Route::get('/admin/setting',[SettingController::class,'index']);
